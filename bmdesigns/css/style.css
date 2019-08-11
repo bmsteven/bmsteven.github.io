@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+header {
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(540px at 50% 50%, #A69F63 0%, #252D22 100%);
+}
+
+.header {
+  width: 100vw;
+  background: #333;
+  opacity: 0.5;
+}
+/*# sourceMappingURL=style.css.map */

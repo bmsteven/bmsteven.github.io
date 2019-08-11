@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(540.00px at 50% 50%, #A69F63 0%, #252D22 100%);
+}
+.header {
+    width: 100vw;
+    background: #333;
+    opacity: 0.5;
+}
