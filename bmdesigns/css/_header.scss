@@ -1,0 +1,108 @@
+header {
+    height: 100vh;
+    width: 100vw;
+    // background: radial-gradient(540.00px at 50% 50%, #A69F63 0%, #252D22 100%);
+    .header {
+        width: 100vw;
+        position: fixed;
+        background-color: rgba(3, 3, 3, 0.4);
+        .top {
+            width: 85%;
+            margin: 0 auto;
+            height: 40px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .contact {
+                display: flex;
+                a {
+                    color: #bbb;
+                    transition: .2s;
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+                .tel {
+                    color: #fff;
+                    padding-right: 30px;  
+                }
+                .social-icons {
+                    a {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+        hr {
+            height: 1px;
+            color: #777;
+            background-color: #999;
+            border: none;
+        }
+        .navbar {
+            width: 85%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            .logo {
+                a {
+                    img {
+                        height: 100px;
+                        width: 150px;
+                    }
+                }
+            }
+            nav {
+                display: flex;
+                align-items: center;
+                .dropdown1 {
+                    transition:0.3s;
+                    display: none;
+                    .dropdown2 {
+                        position: absolute;
+                        width: 180px;
+                        background: rgba(3, 3, 3, .8);
+                        padding: 10px;
+                        margin-left: 160px;
+                        margin-top: -30px;
+                        display: none;
+                    }
+                }
+                .dropdown:hover .dropdown1 {
+                    display: block;
+                    position: absolute;
+                    margin-top: 30px;
+                    background: rgba(3, 3, 3, .8);
+                    padding: 10px;
+                    margin-left: 60px;
+                }
+                ul {
+                    display: flex;
+                    list-style: none;
+                    li {
+                        padding: 10px;
+                        &:nth-child(5) {
+                            padding-right: 0 !important;
+                        }
+                        a {
+                            color: #bbb;
+                            &:hover{
+                                color: #fff;
+                            }
+                        }
+                        .active {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bg-heading {
+        .bg {
+            img {
+                width: 100vw;
+            }
+        }
+    }
+}
